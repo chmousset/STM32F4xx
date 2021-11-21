@@ -123,6 +123,8 @@
   #include "st_morpho_map.h"
 #elif defined(BOARD_MORPHO_DAC_CNC)
   #include "st_morpho_dac_map.h"
+#elif defined(BOARD_NUCLEO64_CNC_V3)
+  #include "st_nucleo64_cncv3_map.h"
 #elif defined(BOARD_MINI_BLACKPILL)
   #include "mini_blackpill_map.h"
 #elif defined(BOARD_MY_MACHINE)
